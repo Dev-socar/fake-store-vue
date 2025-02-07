@@ -3,10 +3,10 @@ import baseURL from "@/lib/axios";
 export default {
   async getMainProducts() {
     const urls = [
-      "/products/category/jewelery?limit=1",
-      "/products/category/electronics?limit=1",
-      "/products/category/men's clothing?limit=1",
-      "/products/category/women's clothing?limit=1",
+      "/products/category/jewelery?limit=2",
+      "/products/category/electronics?limit=2",
+      "/products/category/men's clothing?limit=2",
+      "/products/category/women's clothing?limit=2",
     ];
 
     try {

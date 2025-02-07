@@ -62,6 +62,11 @@ export const useProductsStore = defineStore("products", () => {
     }
   }
 
+
+  async function setCategory(category) {
+    await fetchProductsByCategory(category);
+  }
+
   return {
     mainProducts,
     allProducts,
@@ -72,5 +77,6 @@ export const useProductsStore = defineStore("products", () => {
     fetchMainProducts,
     fetchProductsByCategory,
     fetchProductById,
+    setCategory
   };
 });

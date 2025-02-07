@@ -24,6 +24,16 @@ const router = createRouter({
       name: "cart",
       component: () => import("@/views/CartView.vue"),
     },
+    {
+      path: "/resume",
+      name: "resume",
+      component: () => import("@/views/ResumeView.vue"),
+    },
+    {
+      path: "/:pathMatch(.*)*", // Ruta 404 (debe ir al final)
+      name: "not-found",
+      component: () => import('@/views/NotFoundView.vue'),
+    },
   ],
 });
 
