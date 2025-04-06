@@ -9,7 +9,6 @@ Tienda virtual en la cual puedes agregar o quitar elementos de tu carrito de com
 ## 🧰 Stack de desarrollo
 ![Vue.js](https://img.shields.io/badge/Vue.js-00D084?style=for-the-badge&logo=vue.js&logoColor=white)
 ![PayPal](https://img.shields.io/badge/PayPal-003087?style=for-the-badge&logo=paypal&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 ![Pinia](https://img.shields.io/badge/Pinia-00D084?style=for-the-badge&logo=vue.js&logoColor=yellow)
